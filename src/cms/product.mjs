@@ -21,28 +21,34 @@ export const product = {
       direction: "Descending",
     },
   },
-  view_filters: [
-    {
-      label: t("is_digital"),
-      field: "is_digital",
-      pattern: true,
-    },
-    {
-      label: t("out_of_stock"),
-      field: "in_stock",
-      pattern: false,
-    },
-    {
-      label: t("in_stock"),
-      field: "in_stock",
-      pattern: true,
-    },
-    {
-      label: t("offer"),
-      field: "offer_price",
-      pattern: "^(0*[1-9][0-9]*(.[0-9]+)?|0+.[0-9]*[1-9][0-9]*)$",
-    },
-  ],
+  view_filters: {
+    filters: [
+      {
+        name: "is_digital",
+        label: t("is_digital"),
+        field: "is_digital",
+        pattern: true,
+      },
+      {
+        name: "out_of_stock",
+        label: t("out_of_stock"),
+        field: "in_stock",
+        pattern: false,
+      },
+      {
+        name: "in_stock",
+        label: t("in_stock"),
+        field: "in_stock",
+        pattern: true,
+      },
+      {
+        name: "offer",
+        label: t("offer"),
+        field: "offer_price",
+        pattern: "^(0*[1-9][0-9]*(.[0-9]+)?|0+.[0-9]*[1-9][0-9]*)$",
+      }
+    ]
+  },
   fields: [
     {
       name: "in_stock",
