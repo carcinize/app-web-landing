@@ -16,10 +16,16 @@ export const page = {
   },
   fields: [
     {
+      label: t("name"),
+      name: "name",
+      widget: "string",
+      pattern: [".{2,}", "Must have at least 2 characters"],
+    },
+    {
       label: t("title"),
       name: "title",
       widget: "string",
-      pattern: [".{5,}", "Must have at least 20 characters"],
+      pattern: [".{5,}", "Must have at least 5 characters"],
     },
     {
       label: t("description_seo"),
