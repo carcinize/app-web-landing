@@ -18,10 +18,11 @@ const config = {
   site_url: url,
   logo_url: "https://carcinize.netlify.app/logo.svg",
   local_backend: true,
+  publish_mode: 'editorial_workflow',
 	backend: {
 		name: 'github',
 		repo: 'carcinize/app-web-landing',
-    branch: 'release/personalized',
+    branch: 'releases',
 		commit_messages: {
 			create: 'Create {{collection}} "{{slug}}"',
 			update: 'Update {{collection}} "{{slug}}"',
