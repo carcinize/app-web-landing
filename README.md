@@ -218,7 +218,3 @@ By [caffeinating](https://www.buymeacoffee.com/unfolding.io) your developer, you
 ![Nebulix](https://nebulix.unfolding.io/screenshots/nebulix-07-portfolio.jpg)
 
 ![Nebulix](https://nebulix.unfolding.io/screenshots/nebulix-08-footer.jpg)
-
-
-
-
