@@ -11,6 +11,7 @@
     --color-dark: 25 28 38;
     --color-light: 243 241 239;
     --color-info: 66 137 179;
+    --color-hyperlink: 26 13 171;
 
     --spacing: 1rem;
     --w-xl: 75rem;
@@ -40,6 +41,7 @@
       --color-dark: 25 28 38;
       --color-light: 243 241 239;
       --color-info: 80 145 185;
+      --color-hyperlink: 138 180 248;
     }
   }
 }
@@ -240,7 +242,7 @@ body {
 /* MARKDOWN HTML */
 .richtext {
   a:not([class]) {
-    color: rgb(var(--color-accent));
+    color: rgb(var(--color-hyperlink));
     padding-bottom: 0.1em;
     background: linear-gradient(90deg, currentColor, currentColor) no-repeat
       right bottom / 0 var(--bg-h);
