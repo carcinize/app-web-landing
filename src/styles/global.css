@@ -240,6 +240,7 @@ body {
 /* MARKDOWN HTML */
 .richtext {
   a:not([class]) {
+    color: blue;
     padding-bottom: 0.1em;
     background: linear-gradient(90deg, currentColor, currentColor) no-repeat
       right bottom / 0 var(--bg-h);
